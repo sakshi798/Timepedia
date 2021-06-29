@@ -1,0 +1,79 @@
+body
+{
+    color:black;
+    margin: 0px;
+    font-family: Gotham Rounded, sans-serif;
+    border-color: black;
+    border-top: 20px;
+    background-color: rgba(172, 169, 169, 0.986);
+}
+#quote {
+    font-style: italic;
+
+}
+.clock2
+{
+    color: #000000;
+    font-size: 50px;
+    font-family: Gotham Rounded, sans-serif;
+    letter-spacing: 7px;
+}
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #000000;
+    font-size: 90px;
+    font-family: Gotham Rounded, sans-serif;
+    letter-spacing: 7px;
+   
+
+
+}
+.nav_member
+{
+    float: left;  
+    font-size: medium; 
+    background-color: black;
+    color:rgb(255, 255, 255);
+    margin: 0 px;
+    width: 19.8%;
+    height: 45px;
+    padding-bottom: 21px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+}
+a
+{
+    float: left;
+}
+
+div.nav_member:hover
+{
+    background-color: rgb(18, 90, 24);
+    color: white;
+    font-size: 1.15rem;
+    font-weight: 300;
+    height: 48px;
+    padding-bottom: 23px;
+}
+a:hover
+{
+    background-color: black;
+    color:rgb(225, 231, 231);
+    font-size: 1.15rem;
+    font-weight: 300;
+    height: 48px;
+    padding-bottom: 23px;
+}
+
+div.navigate
+{
+    margin-top: 0px;
+    background-color: black;
+    align-content: center;
+    overflow: hidden;
+}
+

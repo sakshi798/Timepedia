@@ -1,0 +1,64 @@
+
+<html lang='en'>
+	<head>
+		<title>🕐Alarm</title>
+		<meta charset='UFT-8' name='viewport' content='width=device-width, initial=scale=1.0' >
+		<link rel='stylesheet' href='alarmstyle.css'>
+	</head>
+	<body>
+        <nav>
+            <div class="navigate">
+    
+            <a class="nav_member"  href="index.html"><h1>Home</h1></a>
+            <a class="nav_member" href="clock.html"><h1>Clock</h1></a>
+            <a class="nav_member" style="color:rgb(147, 227, 238)" href="alarm.html"><h1>Alarm</h1></a>
+            <a class="nav_member" href="stopwatch.html"><h1>Stopwatch</h1></a>
+            <a class="nav_member" href="timer.html"><h1>Timer</h1></a>
+    
+            </div>
+        </nav>
+        <div id='main-div'>
+			<h2 id='clock'></h2>
+		</div>
+
+		<div id='alarm'>
+			<h3>Set Alarm Time</h3>
+				<label>
+					<div>
+					<select id='hrs' ></select>
+					</div>
+				</label>
+				<label>
+					<div>
+					<select id='mins' ></select>
+					</div>
+				</label>
+				<label>
+					<div>
+					<select id='secs' ></select>
+					</div>
+				</label>
+				<label>
+					<div>
+						<select id="ampm">
+							<option value="AM">AM</option>
+							<option value="PM">PM</option>
+						</select>
+					</div>
+				</label>
+				</div>
+		</div>
+
+		<div id='buttonHolder'>
+			<div>
+				<button  id='setButton' onClick='alarmSet()'>Save</button>
+			</div>
+
+			<div>
+				<button  id='clearButton' onClick='alarmClear()'>Cancel</button>
+			</div>
+		</div>
+
+		<script src='alarmscript.js'></script>
+	</body>
+</html>

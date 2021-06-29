@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Countdown Timer</title>
+  <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="timerstyle.css">
+</head>
+<body>
+    <nav>
+        <div class="navigate">
+
+        <a class="nav_member"  href="index.html"><h1>Home</h1></a>
+        <a class="nav_member" href="clock.html"><h1>Clock</h1></a>
+        <a class="nav_member" href="alarm.html"><h1>Alarm</h1></a>
+        <a class="nav_member" href="stopwatch.html"><h1>Stopwatch</h1></a>
+        <a class="nav_member" style="color:rgb(147, 227, 238)" href="timer.html"><h1>Timer</h1></a>
+
+        </div>
+    </nav>
+    
+  <div class="timer">
+    <div class="timer__controls">
+     <button data-time="300" class="timer__button">5 Mins</button>
+      <button data-time="600" class="timer__button">10 Mins</button>
+      <button data-time="900" class="timer__button">15 Mins</button>
+      <button data-time="1200" class="timer__button">20 Mins</button>
+      <button data-time="3600" class="timer__button">60 Mins</button>
+    </div>
+    <br>
+    <br>
+      <form name="customForm" id="custom">
+        <input type="text" name="minutes" placeholder="Enter Minutes">
+      </form>
+      <br>
+      <br>
+    <div class="display">
+      <h1 class="display__time-left">00:00</h1>
+      <p class="display__end-time"  ></p>
+    </div>
+  </div>
+
+  <script src="timerscript.js"></script>
+</body>
+</html>

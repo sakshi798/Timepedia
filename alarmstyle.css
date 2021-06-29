@@ -1,0 +1,130 @@
+
+body
+{
+    background-color: rgba(143, 140, 140, 0.986);
+    color:black;
+    margin: 0px;
+    font-family: Gotham Rounded, sans-serif;
+}
+
+#clock {
+    height:120px;
+    font-size: 100px;
+    font-family: Gotham Rounded, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  color: white;
+}
+
+h2 {
+	text-align:center;
+  
+
+}
+
+#alarm {
+	text-align:center;
+    font-family: Gotham Rounded, sans-serif;
+    font-size: 45px;
+  color: rgb(3, 0, 0);
+}
+
+label {
+	display:inline-block;
+}
+
+.timeofday {
+    background-color: #eee;
+}
+
+.bigger {
+    font-weight:bold;
+    font-size: 18px;
+}
+
+#sounds {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#setButton {
+    float : left;
+    margin-top:0px;
+    margin-left:150px;
+    font-weight: bold;
+    background-color: #236326; 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+#clearButton {
+    float : right;
+    margin-top:0px;
+    margin-right:150px;
+    font-weight: bold;
+    background-color: #632323; 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.nav_member
+{
+    float: left;  
+    font-size: medium; 
+    background-color: black;
+    color:rgb(255, 255, 255);
+    margin: 0 px;
+    width: 19.8%;
+    height: 45px;
+    padding-bottom: 21px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+}
+a
+{
+    float: left;
+}
+
+div.nav_member:hover
+{
+    background-color: rgb(18, 90, 24);
+    color: white;
+    font-size: 1.15rem;
+    font-weight: 300;
+    height: 48px;
+    padding-bottom: 23px;
+}
+a:hover
+{
+    background-color: black;
+    color:rgb(225, 231, 231);
+    font-size: 1.15rem;
+    font-weight: 300;
+    height: 48px;
+    padding-bottom: 23px;
+}
+
+div.navigate
+{
+    margin-top: 0px;
+    background-color: black;
+    align-content: center;
+    overflow: hidden;
+}
+
+
+
+
